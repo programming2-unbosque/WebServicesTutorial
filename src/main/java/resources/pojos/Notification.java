@@ -2,7 +2,7 @@ package resources.pojos;
 
 public class Notification {
 
-    String text;
+    private String text;
 
     public Notification(String text) {
         this.text = text;

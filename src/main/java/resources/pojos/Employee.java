@@ -2,8 +2,8 @@ package resources.pojos;
 
 public class Employee {
 
-    String name;
-    String role;
+    private String name;
+    private String role;
 
     public Employee() {
     }

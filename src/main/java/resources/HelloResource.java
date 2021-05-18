@@ -20,7 +20,7 @@ public class HelloResource {
     @Path("/{name}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response hello(@PathParam("name") String name) {
-        return Response.ok()
+        return Response.status(200)
                 .entity(new Notification("Hello, World! " + name))
                 .build();
     }
