@@ -1,13 +1,11 @@
-package resources;
+package edu.unbosque.WebServicesTutorial.resources;
 
-import resources.pojos.Author;
+import edu.unbosque.WebServicesTutorial.resources.pojos.Author;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Path("/authors")
 public class AuthorsResource {

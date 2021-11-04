@@ -1,7 +1,6 @@
-package resources;
+package edu.unbosque.WebServicesTutorial.resources;
 
-import resources.pojos.Author;
-import resources.pojos.Book;
+import edu.unbosque.WebServicesTutorial.resources.pojos.Book;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

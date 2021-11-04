@@ -1,4 +1,4 @@
-package resources.pojos;
+package edu.unbosque.WebServicesTutorial.resources.pojos;
 
 public class Notification {
 

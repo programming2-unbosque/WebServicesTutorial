@@ -1,7 +1,7 @@
-package resources;
+package edu.unbosque.WebServicesTutorial.resources;
 
-import resources.pojos.Employee;
-import resources.pojos.Notification;
+import edu.unbosque.WebServicesTutorial.resources.pojos.Employee;
+import edu.unbosque.WebServicesTutorial.resources.pojos.Notification;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
